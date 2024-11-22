@@ -1,0 +1,13 @@
+DROP TABLE TDDSVE_TPS;
+CREATE TABLE TDDSVE_TPS (
+    DAT_TPS         DATE,
+    NUM_ANN         INTEGER,
+    NUM_MOI         INTEGER,
+    NUM_JOU         INTEGER,
+    NUM_HEU         INTEGER,
+    NUM_SEC         INTEGER,
+    NUM_MILSEC      INTEGER,
+    DAT_MAJ     DATE,
+    DAT_ALI     DATE,
+    HEU         TIMESTAMP
+);

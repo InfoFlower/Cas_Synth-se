@@ -1,0 +1,20 @@
+DROP TABLE C_TDDSVE_MAG;
+CREATE TABLE C_TDDSVE_MAG (
+    ID_MAG      NUMBER,
+    LIB_MAG     VARCHAR(100),
+    COD_PAY     VARCHAR(8),
+    LIB_PAY     VARCHAR(32),
+    ADR1        VARCHAR(172),
+    ADR2        VARCHAR(132),
+    ADR3        VARCHAR(208),
+    VIL_MAG     VARCHAR(88),
+    COD_POS     FLOAT,
+    DEP_MAG     VARCHAR(80),
+    REG_MAG     VARCHAR(104),
+    TEL         VARCHAR(68),
+    EMAIL       VARCHAR(124),
+    LNG         FLOAT,
+    LAT         FLOAT,
+    DAT_OUV     VARCHAR(40),
+    DAT_FRM     VARCHAR(40)
+);
